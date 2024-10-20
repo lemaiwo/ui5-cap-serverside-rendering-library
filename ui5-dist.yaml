@@ -1,0 +1,16 @@
+specVersion: "4.0"
+metadata:
+  name: be.wl.serversiderendering.library
+type: library
+resources:
+  configuration:
+    paths:
+      src: dist/resources/be/wl/serversiderendering/library/
+      test: dist/test-resources/be/wl/serversiderendering/library/
+framework:
+  name: OpenUI5
+  version: 1.129.0
+  libraries:
+    - name: sap.ui.core
+    - name: themelib_sap_horizon
+    - name: themelib_sap_fiori_3

@@ -1,0 +1,32 @@
+{
+	"name": "be.wl.serversiderendering.library",
+	"version": "1.0.0",
+	"description": "UI5 Library: be.wl.serversiderendering.library",
+	"author": "lemaiwo",
+	"license": "Apache-2.0",
+	"scripts": {
+		"clean": "rimraf dist coverage",
+		"build": "ui5 build --clean-dest",
+		"start": "ui5 serve -o test-resources/be/wl/serversiderendering/library/Example.html",
+		"start:dist": "npm start -- --config ui5-dist.yaml",
+		"testsuite": "ui5 serve -o test-resources/be/wl/serversiderendering/library/qunit/testsuite.qunit.html",
+		"lint": "eslint src test",
+		"karma": "karma start",
+		"karma-ci": "karma start karma-ci.conf.js",
+		"karma-ci-cov": "karma start karma-ci-cov.conf.js",
+		"test": "npm run lint && npm run karma-ci-cov"
+	},
+	"devDependencies": {
+		"@ui5/cli": "^4.0.6",
+		"@ui5/middleware-code-coverage": "^2.0.0",
+		"eslint": "^9.9.1",
+		"eslint-plugin-jsdoc": "^50.2.2",
+		"globals": "^15.9.0",
+		"karma": "^6.4.4",
+		"karma-chrome-launcher": "^3.2.0",
+		"karma-coverage": "^2.2.1",
+		"karma-ui5": "^4.0.1",
+		"rimraf": "^6.0.1",
+		"ui5-middleware-livereload": "^3.0.3"
+	}
+}
