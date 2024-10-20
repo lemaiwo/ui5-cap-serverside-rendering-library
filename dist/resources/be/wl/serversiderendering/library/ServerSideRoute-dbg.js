@@ -1,4 +1,4 @@
-sap.ui.define(["sap/ui/core/routing/Route", "be/wl/serversiderendering/library/ServerSideRouter", "sap/ui/base/EventProvider", "sap/ui/core/mvc/View", "sap/ui/core/Element"], function (Route, ServerSideRouter, EventProvider, View, Element) {
+sap.ui.define(["sap/ui/core/routing/Route", "sap/ui/base/EventProvider", "sap/ui/core/mvc/View", "sap/ui/core/Element"], function (Route, EventProvider, View, Element) {
     "use strict";
 
     return Route.extend("be.wl.serversiderendering.library.ServerSideRoute", {

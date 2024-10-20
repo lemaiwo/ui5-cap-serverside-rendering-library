@@ -2,7 +2,7 @@
 <library xmlns="http://www.sap.com/sap.ui.library.xsd">
 	<name>be.wl.serversiderendering.library</name>
 	<vendor>lemaiwo</vendor>
-	<version>1.0.6</version>
+	<version>1.0.7</version>
 	<copyright>${copyright}</copyright>
 	<title>be.wl.serversiderendering.library</title>
 	<documentation>Some description about be.wl.serversiderendering.library</documentation>

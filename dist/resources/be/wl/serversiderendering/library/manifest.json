@@ -5,7 +5,7 @@
     "type": "library",
     "embeds": [],
     "applicationVersion": {
-      "version": "1.0.6"
+      "version": "1.0.7"
     },
     "title": "be.wl.serversiderendering.library",
     "description": "Some description about be.wl.serversiderendering.library",
