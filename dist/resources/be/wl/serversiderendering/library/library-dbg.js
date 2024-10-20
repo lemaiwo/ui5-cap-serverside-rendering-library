@@ -8,7 +8,7 @@ sap.ui.define([
 	// Hint: sap.ui.getCore() must still be used to support preload with sync bootstrap!
 	sap.ui.getCore().initLibrary({
 		name: "be.wl.serversiderendering.library",
-		version: "${version}",
+		version: "1.0.6",
 		dependencies: [ // keep in sync with the ui5.yaml and .library files
 			"sap.ui.core"
 		],

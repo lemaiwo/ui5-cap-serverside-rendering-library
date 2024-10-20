@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/routing/Router","be/wl/serversiderendering/library/ServerSideRoute"],function(e,r){"use strict";return e.extend("be.wl.serversiderendering.library.ServerSideRouter",{_createRoute:function(e,i,n){return new r(e,i,n,this._oOwner)}})});
+//# sourceMappingURL=ServerSideRouter.js.map

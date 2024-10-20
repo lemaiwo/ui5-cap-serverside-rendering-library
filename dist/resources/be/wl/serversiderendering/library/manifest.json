@@ -1,0 +1,38 @@
+{
+  "_version": "1.21.0",
+  "sap.app": {
+    "id": "be.wl.serversiderendering.library",
+    "type": "library",
+    "embeds": [],
+    "applicationVersion": {
+      "version": "1.0.6"
+    },
+    "title": "be.wl.serversiderendering.library",
+    "description": "Some description about be.wl.serversiderendering.library",
+    "resources": "resources.json",
+    "offline": true
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "supportedThemes": []
+  },
+  "sap.ui5": {
+    "dependencies": {
+      "minUI5Version": "1.129",
+      "libs": {
+        "sap.ui.core": {
+          "minVersion": "1.129.0"
+        }
+      }
+    },
+    "library": {
+      "i18n": false,
+      "content": {
+        "controls": [],
+        "elements": [],
+        "types": [],
+        "interfaces": []
+      }
+    }
+  }
+}
