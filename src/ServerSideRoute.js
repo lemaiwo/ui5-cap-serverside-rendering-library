@@ -94,7 +94,8 @@ sap.ui.define(["sap/ui/core/routing/Route", "sap/ui/base/EventProvider", "sap/ui
             }));
             const view = await createView;
             //  var oViewContainingTheControl = oParentInfo.view;
-            const controlView = Element.getElementById(oTargetData.routeConfig.targetParent);
+            const parentId = await oTargetData.routeConfig.targetParent;
+            const controlView = Element.getElementById(parentId);
             await controlView.loaded();
 
             // add oObject to oContainerControl's aggregation
